@@ -1,0 +1,13 @@
+﻿<Window x:Class="Manager_Plikow.ImageViewer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Manager_Plikow"
+        mc:Ignorable="d"
+        Title="ImageViewer" Height="Auto" Width="Auto">
+    <Grid>
+        <Image HorizontalAlignment="Stretch" Height="auto" VerticalAlignment="Top" Width="Auto" Name="imageHolder"/>
+
+    </Grid>
+</Window>

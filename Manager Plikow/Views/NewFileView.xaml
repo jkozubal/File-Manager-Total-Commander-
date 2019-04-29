@@ -1,0 +1,13 @@
+﻿<Window x:Name="NewFileViewView" x:Class="Manager_Plikow.NewFileView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Manager_Plikow"
+        mc:Ignorable="d"
+        Title="Utwórz Folder" Height="159.036" Width="316.566">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="50,50,0,0" TextWrapping="Wrap" Text="Nazwa Folderu" Name="newFolderName" VerticalAlignment="Top" Width="203" TextChanged="newFolderName_TextChanged"/>
+        <Button Content="Utwórz" HorizontalAlignment="Left" Margin="106,91,0,0" VerticalAlignment="Top" Width="75" Name="createFile" Click="createFile_Click"/>
+    </Grid>
+</Window>
